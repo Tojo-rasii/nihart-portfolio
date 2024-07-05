@@ -1,0 +1,125 @@
+@media only screen and (max-width:1100px) {
+    body {
+        font-size: 0.9em;
+    }
+
+    /* NAV */
+    .header header {
+        display: none;
+    }
+
+    .header nav {
+        display: block;
+        background: #fff;
+        width: 100%;
+        padding: 1em;
+        position: fixed;
+        border-bottom: 1.5px solid rgb(220, 220, 220);
+    }
+
+    .header nav section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header nav section article:nth-child(1) picture p {
+        font-size: 1.3em;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .header nav section article label {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 0.3em;
+        cursor: pointer;
+    }
+
+    .header nav section article label span {
+        width: 2.5em;
+        padding: 0.2em;
+        transition: All 0.3s;
+        border-radius: 2em;
+        background: #232323;
+    }
+
+    #check {
+        display: none;
+    }
+
+    /* #labelCheck:checked {
+    } */
+
+    #labelCheck:is(:hover) span {
+        width: 2.5em;
+    }
+
+    #labelCheck:is(:hover) span:nth-child(2) {
+        opacity: 0;
+    }
+
+    #labelCheck:is(:hover) span:nth-child(1) {
+        transform-origin: top right;
+        transform: rotate(-39deg);
+    }
+
+    #labelCheck:is(:hover) span:nth-child(3) {
+        transform-origin: bottom right;
+        transform: rotate(39deg);
+    }
+
+    .header nav section article span:nth-child(2) {
+        width: 1.8em;
+    }
+
+    .header nav section article span:nth-child(3) {
+        width: 2.2em;
+    }
+
+    div main {
+        width: 100%;
+        margin: 0 !important;
+    }
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    /* .dark-mode #main main:nth-child(1) {
+        background-image: url('../asset/339ba875-0afa-447a-8808-facb52cb9ec5.jpeg');
+    } */
+
+
+    #main main:nth-child(1) {
+        display: flex;
+        gap: 0;
+
+        background-image: url('../asset/339ba875-0afa-447a-8808-facb52cb9ec5.jpeg');
+        background-position: 50%;
+        background-repeat: no-repeat;
+
+        background-attachment: fixed;
+        background-position-x: 80%;
+        margin-top: 3.5em !important;
+        border-image: fill 0 linear-gradient(#000000aa, #0000009b);
+        color: #fff;
+        padding: 6em;
+        padding-bottom: 8em;
+        padding-left: 2em;
+    }
+
+
+    #main main:nth-child(1) section:nth-child(1) article {
+        width: 100%;
+    }
+
+    #main main section article {
+        display: none;
+    }
+
+}

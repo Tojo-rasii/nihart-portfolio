@@ -1,0 +1,92 @@
+/* DARKMODE */
+.dark-mode {
+    background: #141414;
+}
+
+.dark-mode .header header {
+    border-bottom: 1.5px solid #141414;
+    background: #181818;
+}
+
+.dark-mode .header header section article:nth-child(1) picture p {
+    color: var(--colorDark);
+}
+
+
+.dark-mode .active p {
+    color: var(--colorDark);
+}
+
+.dark-mode .active::after {
+
+    background: var(--colorDark);
+
+
+}
+
+.dark-mode #btnScrollToTop {
+    background: #141414;
+    color: var(--colorDark);
+    outline-color: var(--colorDark);
+
+}
+
+.dark-mode a {
+    color: #afafaf;
+}
+
+.dark-mode p {
+    color: #afafaf;
+}
+
+.dark-mode :is(#code ion-icon, #camera ion-icon) {
+    background: #141414;
+    color: var(--colorDark);
+    border: #181818;
+    outline: none;
+}
+
+.dark-mode #main main:nth-child(1) section article picture img {
+    background: #141414;
+}
+
+.dark-mode #main main:nth-child(1) section:nth-child(1) article p:nth-child(3) {
+    background: #141414;
+
+}
+
+.dark-mode div main {
+    background: #181818;
+    box-shadow: 0 1px 3px #141414;
+}
+
+.dark-mode div #main main {
+    background: #181818;
+    box-shadow: 0 1px 3px #141414;
+}
+
+.dark-mode #inputCheck::before {
+    background: #fff;
+    outline: none;
+}
+
+.dark-mode :is(#about main section article p:nth-child(2),#experience main section article:nth-child(2) div p:nth-child(2),#competence main section div p,#contact main section article:nth-child(2) div p:nth-child(2),#contact ion-icon,#experience ion-icon ){
+    background: #141414;
+}
+
+.dark-mode #inputCheck::after {
+    background: var(--color);
+}
+
+.dark-mode #main main:nth-child(2) section {
+    background: #141414;
+    border-color: #141414;
+    border-bottom: 1px solid #181818;
+
+}
+
+.dark-mode .footer footer {
+    background: #181818;
+
+}
+
